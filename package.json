@@ -12,10 +12,17 @@
   "type": "module",
   "dependencies": {
     "@apollo/server": "^5.5.1",
-    "graphql": "^16.14.1"
+    "@as-integrations/express5": "^1.1.2",
+    "@prisma/client": "^7.8.0",
+    "express": "^5.2.1",
+    "graphql": "^16.14.1",
+    "reflect-metadata": "^0.2.2",
+    "type-graphql": "^2.0.0-rc.3"
   },
   "devDependencies": {
+    "@types/express": "^5.0.6",
     "@types/node": "^25.9.1",
+    "prisma": "^7.8.0",
     "tsx": "^4.22.4",
     "typescript": "^6.0.3"
   }
